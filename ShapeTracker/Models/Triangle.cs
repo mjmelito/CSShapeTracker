@@ -1,6 +1,3 @@
-
-using System.Runtime.InteropServices;
-
 namespace ShapeTracker.Models
 {
     public class Triangle
