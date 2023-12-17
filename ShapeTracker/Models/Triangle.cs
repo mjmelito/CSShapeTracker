@@ -3,7 +3,7 @@ namespace ShapeTracker.Models
     public class Triangle
     {
         public int Side1;
-        public int Side2 = 4;
+        public int Side2;
         public int Side3;
 
         public Triangle(int length1, int length2, int length3)
@@ -19,7 +19,7 @@ namespace ShapeTracker.Models
             {
                 return "not a triangle";
             }
-            else if ((Side1 != Side2) && ((Side1 != Side3)) && ((Side2 != Side3))) 
+            else if ((Side1 != Side2) && (Side1 != Side3) && (Side2 != Side3)) 
             {
                 return "scalene triangle";
             }  
