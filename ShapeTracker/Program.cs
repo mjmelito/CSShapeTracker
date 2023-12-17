@@ -7,7 +7,7 @@ namespace ShapeTracker
     {
         static void Main()
         {
-            Triangle testTriangle = new Triangle(3, 4, 5);
+            Triangle testTriangle = new Triangle(3, 3, 7);
             Console.WriteLine(testTriangle.GetType());
 
 
