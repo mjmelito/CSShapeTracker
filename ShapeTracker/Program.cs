@@ -14,6 +14,11 @@ namespace ShapeTracker
             Console.WriteLine("Want to know what type of triangle you have?");
             Console.WriteLine("Calculating...");
             Console.WriteLine($"Your triangle is: {testTriangle.CheckType()}.");
+            testTriangle.SetSide1(44);
+            testTriangle.SetSide2(44);
+            testTriangle.SetSide3(70);
+            Console.WriteLine($"Actually, I've just changed the values of your triangle's sides to {testTriangle.GetSide1()}, {testTriangle.GetSide2()}, and {testTriangle.GetSide3()}.");
+            Console.WriteLine($"Now your triangle is: {testTriangle.CheckType()}.");
         }
     }
 }
